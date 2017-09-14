@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, swaggerUser-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        body{
+            background-image: url("../static/ztree/img/2.png");
+            background-repeat: no-repeat;
+        }
+
+    </style>
+</head>
+
+<!--ztree树的构图  th:href="title.html"  -->
+<frameset rows="100,*" frameborder="yes" border="1" framespacing="1">
+    <!-- 头部 -->
+    <frame src="html/title.html"/>
+    <frameset id="left" cols="260px,*" border="2" rows="1000">
+        <frame name="letf" src="html/main.html" >
+        <frame name="right" style="background: Ivory ;">
+    </frameset>
+</frameset>
+
+<body>
+
+</body>
+</html>
